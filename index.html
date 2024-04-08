@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>A04: Simple Dictionary</title>
+        <link rel=""stylesheet" href=""dictionary.css">
+    </head>
+    <body>
+        <h1>Simple Dictionary</h1>
+        <input type="text" id="wordInput" placeholder="Enter a word">
+        <button onclick="getDefinition(); getImage(document.getElementById('wordInput').value); getSynonyms(document.getElementById('wordInput').value)">Search</button>
+        <div id="definition"></div>
+        <div id="synonyms"></div>
+        <div id="imageContainer"></div>
+        <script src="dictionary.js"></script>
+    </body>
+</html>
